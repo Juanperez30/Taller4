@@ -11,23 +11,141 @@
 <body>
 
 <div class="container">
-  <h2>Inline form</h2>
-  <p>Make the viewport larger than 768px wide to see that all of the form elements are inline, left aligned, and the labels are alongside.</p>
-  <form class="form-inline" action="/action_page.php">
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-    </div>
-    <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
-    </div>
-    <div class="checkbox">
-      <label><input type="checkbox" name="remember"> Remember me</label>
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
-  </form>
+
+<form class="well form-horizontal" action=" " method="post"  id="contact_form">
+<fieldset>
+
+<!-- Form Name -->
+<legend><center><h2><b>Registro de cliente </b></h2></center></legend><br>
+
+<!-- Text input-->
+
+<div class="form-group">
+<label class="col-md-4 control-label">Id usuario</label>
+<div class="col-md-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input  name="id_usr" placeholder="Id usuario" class="form-control"  type="text">
 </div>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-4 control-label">Nombres</label>
+<div class="col-md-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input  name="first_name" placeholder="Nombres" class="form-control"  type="text">
+</div>
+</div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+<label class="col-md-4 control-label" >apellidos</label>
+<div class="col-md-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input name="last_name" placeholder="apellidos" class="form-control"  type="text">
+</div>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-4 control-label" >Direccion</label>
+<div class="col-md-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input name="last_name" placeholder="Direccion" class="form-control"  type="text">
+</div>
+</div>
+</div>
+
+
+<div class="form-group">
+<label class="col-md-4 control-label">Pais</label>
+<div class="col-md-4 selectContainer">
+<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+<select name="department" class="form-control selectpicker">
+  <option value="">Seleccione el país </option>
+  <option>1. Colombia</option>
+  <option>2. Venezuela</option>
+  <option >3. Ecuador</option>
+  <option >4. Perú</option>
+  <option >5. Brasil</option>
+  <option >6. Paraguay</option>
+</select>
+</div>
+</div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+<label class="col-md-4 control-label">Nombre de usuario</label>
+<div class="col-md-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input  name="user_name" placeholder="Nombre de usuario" class="form-control"  type="text">
+</div>
+</div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+<label class="col-md-4 control-label" >contraseña</label>
+<div class="col-md-4 inputGroupContainer">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+<input name="user_password" placeholder="contraseña" class="form-control"  type="password">
+</div>
+</div>
+</div>
+
+
+<!-- Text input-->
+   <div class="form-group">
+<label class="col-md-4 control-label">Correo electrónico</label>
+<div class="col-md-4 inputGroupContainer">
+<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+<input name="email" placeholder="Correo electrónico" class="form-control"  type="text">
+</div>
+</div>
+</div>
+
+
+<!-- Text input-->
+
+<div class="form-group">
+<label class="col-md-4 control-label">Numero telefónico </label>
+<div class="col-md-4 inputGroupContainer">
+<div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+<input name="contact_no" placeholder="(+57)" class="form-control" type="text">
+</div>
+</div>
+</div>
+
+<!-- Select Basic -->
+
+
+
+<!-- Button -->
+<div class="form-group">
+<label class="col-md-4 control-label"></label>
+<div class="col-md-4"><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-warning" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspENVIAR <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+</div>
+</div>
+
+</fieldset>
+</form>
+</div>
+</div><!-- /.container -->
 
 </body>
 </html>
