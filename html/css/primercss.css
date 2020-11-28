@@ -40,6 +40,12 @@ form label{
   font-family: Georgia;
 }
 
+form label[type ="labellong"]{
+	width:200px;
+	display:inline-block;
+  font-family: Georgia;
+}
+
 form input[type="text"],
 form input[type="password"],
 form input[type="email"]{
