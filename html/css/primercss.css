@@ -35,13 +35,7 @@ form{
 }
 
 form label{
-	width:110px;
-	display:inline-block;
-  font-family: Georgia;
-}
-
-form label[type="label2"]{
-	width:200px;
+	width:90px;
 	display:inline-block;
   font-family: Georgia;
 }
@@ -50,8 +44,8 @@ form input[type="text"],
 form input[type="password"],
 form input[type="email"]{
 	width:200px;
-	padding:3px 13px;
-	border:1px solid #ffffff;
+	padding:5px 13px;
+	border:1px solid #7B7B7B;
 	border-radius:3px;
 	background-color:#f6f6f6;
 	margin:15px 0;
@@ -59,28 +53,26 @@ form input[type="email"]{
 }
 
 .mainselection {
-       overflow:hidden;
-       width:230px;
-       margin-left:110px;
-       border:1px solid #ffffff;
+       width:226px;
+       border:1px solid #7B7B7B;
        background-color:#f6f6f6;
        border-radius:3px;
-       margin:1px 0;
+       margin:7px 0;
        display:inline-block;
-
-
-
-       /* dropdown_arrow.png is a 31x28 image */
 }
+
+
+
 select {
+       color: black;
        border:0;
+       padding:1px 13px;
        background:transparent;
        height:32px;
        border:1px solid #d8d8d8;
-       width:350px;
+       width:226px;
        -webkit-appearance: none;
 }
-
 
 
 form input[type="submit"]{
