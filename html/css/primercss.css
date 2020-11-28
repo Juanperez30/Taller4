@@ -35,7 +35,13 @@ form{
 }
 
 form label{
-	width:90px;
+	width:110px;
+	display:inline-block;
+  font-family: Georgia;
+}
+
+form label[type="label2"]{
+	width:200px;
 	display:inline-block;
   font-family: Georgia;
 }

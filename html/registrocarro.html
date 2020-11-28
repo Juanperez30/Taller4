@@ -12,52 +12,108 @@
 </head>
 <body>
 
-	<link href="file:css/form.css"
+	<link href="file:css/primercss.css"
       rel="stylesheet" type="text/css">
-
-			<div class="caja">
-			  <select>
-			    <option>La primera opción</option>
-			    <option>La segunda opción</option>
-			    <option>La tercera opción</option>
-			  </select>
-			</div>
 
 
 <form action="#" target="" method="get" name="formDatosPersonales">
 
-	<label for="nombre">ID usuario</label>
+<label> ID coche </label>
 	<input type="text" name="ID_usr" id="nombre" placeholder="Id usuario"/>
 
-	<label for="nombre">ID país</label>
-	<input type="text" name="Pais" id="nombre" placeholder="Id país"/>
-
-	<label for="nombre">Nombre</label>
-	<input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
-
-	<label for="apellidos">Apellidos</label>
-	<input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido"/>
-
-	<label for="nombre">Direccion</label>
-	<input type="text" name="direccion" id="direccion" placeholder="Escribe tu direccion"/>
-
-	<label for="asunto">Cuenta</label>
-	<input type ="text" name="Cuenta" id="Cuenta" placeholder="Nombre de la cuenta"/>
-
-	<label for="asunto">Contraseña</label>
-	<input type ="password" name="Contraseña" id="Constraseña" placeholder="Contraseña"/>
-
-	<label for="email" />Email</label>
-	<input type="email" name="email" id="email" placeholder="email" required />
-
-	<label for="Telefono">Telefono</label>
-	<input type="text" name="Telefono" id="telefono" placeholder="telefono" />
-
-	<label for="Movidoa">Tipo de combustible</label>
 
 
+	<label>Combustible</label>
+	    <div class="mainselection">
+	<select name="Pais: " >
+	         <option value="">Seleccione el tipo de combustible </option>
+	         <option>1. Gasolina</option>
+	         <option>2. Gas</option>
+	         <option >3. Electricidad</option>
+	</select>
+	</div>
+
+	<label> Tipo coche </label>
+	<div class="mainselection">
+<select name="Pais: " >
+			 <option value="">Seleccione el tipo </option>
+			 <option>1. Deportivo</option>
+			 <option>2. Campero</option>
+			 <option >3. Todoterreno</option>
+</select>
+</div>
+
+<label> Estado </label>
+<div class="mainselection">
+<select name="Pais: " >
+		 <option value="">Seleccione el estado del coche </option>
+		 <option>1. Nuevo</option>
+		 <option>2. Usado</option>
+</select>
+</div>
+
+<label> Marca </label>
+<div class="mainselection">
+<select name="Pais: " >
+		 <option value="">Seleccione la marca </option>
+		 <option>1. Chevrolet</option>
+		 <option>2. Renault</option>
+		 <option>3. Toyota</option>
+		 <option>4. Hyundai</option>
+
+</select>
+</div>
+
+<label> Usuario </label>
+<div class="mainselection">
+<select name="Pais: " >
+		 <option value="">Tipo de usuario </option>
+		 <option>1. Usuario</option>
+		 <option>2. Premium</option>
+		 <option>3. Admin</option>
+
+</select>
+</div>
 
 
+
+
+
+
+	<label for="nombre">Modelo</label>
+	<input type="text" name="modelo" id="Modelo" placeholder="Modelo"/>
+
+	<label for="nombre">Año</label>
+	<input type="text" name="anio" id="anio" placeholder="Año"/>
+
+	<label for="nombre">Detalle</label>
+	<input type="text" name="Detalle" id="Detalle" placeholder="Detalles del vehiculo"/>
+
+	<label for="apellidos">Caja</label>
+	<input type="text" name="Caja" id="Tipo de caja" placeholder="Caja"/>
+
+	<label for="nombre">Motor</label>
+	<input type="text" name="Motor" id="Motor" placeholder="Tipo de motor"/>
+
+	<label for="asunto">Fecha de publicacion</label>
+	<input type ="text" name="Fechapub" id="Fechapub" placeholder="DD/MM/AA"/>
+
+
+		<label for="Moneda">Moneda</label>
+		<input type ="text" name="Moneda" id="Moneda" placeholder="Especifique la moneda usada"/>
+
+
+	<label for="Telefono">Precio</label>
+	<input type="text" name="Precio" id="Precio" placeholder="Precio" />
+
+	<label type = "label2" for = "Descripcion1"> Detalles principales</label>
+	<textarea name="descripcion1" rows="4" cols="80" placeholder="Descripcion que ayuda a distinguir facilmente"></textarea>
+
+	<label type = "label2" for = "Descripcion2"> Detalles secundarios</label>
+	<textarea name="descripcion2" rows="4" cols="80" placeholder="Características propias del vehículo"></textarea>
+
+	<label type = "label2" for = "Descripcion3"> Observaciones o cuidados</label>
+	<textarea name="descripcion2" rows="4" cols="80" placeholder="Detalles adicionales"></textarea>
 
 
 
