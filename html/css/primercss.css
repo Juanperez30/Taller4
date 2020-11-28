@@ -31,7 +31,7 @@ form{
 	margin:auto;
 	background-color:#DCDFEE;
   border:1px solid #7B7B7B;
-  
+
 }
 
 form label{
@@ -51,6 +51,31 @@ form input[type="email"]{
 	margin:15px 0;
 	display:inline-block;
 }
+
+.mainselection {
+       overflow:hidden;
+       width:230px;
+       margin-left:110px;
+       border:1px solid #ffffff;
+       background-color:#f6f6f6;
+       border-radius:3px;
+       margin:0.001px 0;
+       display:inline-block;
+
+
+
+       /* dropdown_arrow.png is a 31x28 image */
+}
+select {
+       border:0;
+       background:transparent;
+       height:32px;
+       border:1px solid #d8d8d8;
+       width:350px;
+       -webkit-appearance: none;
+}
+
+
 
 form input[type="submit"]{
 	width:100%;

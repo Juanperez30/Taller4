@@ -7,7 +7,7 @@
   <body>
 
     <h1>Registro de Usuario</h1>
-    <link rel="stylesheet" type="text/css" href="primercss.css">
+    <link rel="stylesheet" type="text/css" href="css/primercss.css">
 
   	<form action="usercss.html" method="get">
 
@@ -19,9 +19,6 @@
 
     <label>Direccion: </label>
     <input type="text" placeholder="Direccion" required/>
-
-    <label>País: </label>
-    <input type="text" placeholder="Pais" required/>
 
     <label for="asunto">Usuario: </label>
     <input type ="text"  placeholder="Cuenta de Usuario" required/>
@@ -35,7 +32,26 @@
     <label>Teléfono:</label>
     <input type="text" placeholder="Número de Teléfono" />
 
+
+<label>Pais:</label>
+    <div class="mainselection">
+<select name="Pais: " >
+         <option value="">Seleccione el país </option>
+         <option>1. Colombia</option>
+         <option>2. Venezuela</option>
+         <option >3. Ecuador</option>
+         <option >4. Perú</option>
+         <option >5. Brasil</option>
+         <option >6. Paraguay</option>
+</select>
+</div>
+
+
+
+
       <input type="submit" name="enviar" value="Registrarme"/>
+
+
     </form>
 
 
