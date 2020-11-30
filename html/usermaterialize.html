@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- JQuery  -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+  <script src="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Horizontal-Floating-Social-Share-Bar/js/jquery.floating-share.js" type="text/javascript"></script>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+</head>
+
+<body>
+<!-- JQuery  -->
+  <div class="container"> 
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('select').formSelect();
+            $('.datepicker').datepicker();});
+    </script> 
+</div>
+<script src="js/jquery.floating-share.js" type="text/javascript"></script>
+
+
+  <nav class="teal lighten-3" role="navigation">
+    <div class="nav-wrapper container"><img src="carrito.png" width="65" height="65"/><a id="logo-container" href="" class="brand-logo"></a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="#">Publicación de Autos</a></li>
+      </ul>
+
+      </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h3 class="header center brown-text text-darken-1">Complete el siguiente formulario</h3>
+        <div class="row center"></div>
+          <form class="col s6">
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">directions_car</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Número de Registro</label>
+              </div>
+
+              <div class="input-field col s6">
+                <i class="material-icons prefix">date_range</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Modelo</label>
+              </div>
+
+
+              <div class="input-field col s3">
+                <select>
+                  <option value="" disabled selected>Tipo de coche</option>
+                  <option value="1">Sedán</option>
+                  <option value="2">Hatchback</option>
+                  <option value="3">Descapotable</option>
+                  <option value="4">Familiar</option>
+                  <option value="5">Todoterreno</option>
+                  <option value="6">SUV</option>
+                </select>
+              </div>
+
+              <div class="input-field col s3">
+                <select>
+                  <option value="" disabled selected>Estado</option>
+                  <option value="1">Nuevo</option>
+                  <option value="2">Usado</option>
+                </select>
+              </div>
+
+              <div class="input-field col s3">
+                <select>
+                  <option value="" disabled selected>Marca</option>
+                  <option value="1">Audi</option>
+                  <option value="2">Bentley</option>
+                  <option value="3">BMW</option>
+                  <option value="4">Chevrolet</option>
+                  <option value="5">Citroen</option>
+                  <option value="6">Fiat</option>
+                  <option value="1">Ford</option>
+                  <option value="2">Honda</option>
+                  <option value="3">Hyundai</option>
+                  <option value="4">Jeep</option>
+                  <option value="5">Kia</option>
+                  <option value="6">Mazda</option>
+                  <option value="1">Mercedes</option>
+                  <option value="2">Mitsubishi</option>
+                  <option value="3">Nissan</option>
+                  <option value="4">Peugeot</option>
+                  <option value="5">Renault</option>
+                  <option value="6">Tesla</option>
+                  <option value="4">Toyota</option>
+                  <option value="5">Volkwagen</option>
+                  <option value="6">Volvo</option>
+                </select>
+              </div>
+
+              <div class="input-field col s3">
+                <select>
+                  <option value="" disabled selected>Combustible</option>
+                  <option value="1">Gasolina</option>
+                  <option value="2">Diesel</option>
+                  <option value="3">Gas</option>
+                  <option value="4">Ninguno (Eléctrico)</option>
+                </select>
+              </div>
+
+
+              <div class="input-field col s6">
+                <i class="material-icons prefix">attach_money</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Precio</label>
+              </div>
+
+              <div class="input-field col s6">
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Moneda</label>
+              </div>
+
+              <div class="input-field col s6">
+                <i class="material-icons prefix">settings</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Caja</label>
+              </div>
+
+              <div class="input-field col s6">
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Motor</label>
+              </div>
+
+
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Descripción general del carro</label>
+                </div>
+
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">today</i>
+                  <input type="text" class="datepicker">
+                  <label for="textarea1">Fecha de publicación</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Observaciones adicionales</label>
+                </div>
+
+          </form>
+      </div>
+    </br></br>
+
+    </div>
+  </div>
+
+  <div class="row center">
+    <button class="btn-large waves-effect waves-light" type="submit" name="action">Enviar 
+      <i class="material-icons right">send</i>
+    </button>
+  </div>
+
+
+  </body>
+</html>
